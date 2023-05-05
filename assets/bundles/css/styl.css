@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: white;
+    height: auto;
+}
+
+#nav-bar {
+    position: -webkit-sticky;
+    top: 0;
+    z-index: 4;
+    padding: 0;
+    background: #153a6a;
+}
+
+.navbar-brand img {
+    height: 100px;
+    margin-right: 12px;
+    padding: auto;
+}
+
+#cover {
+    background: url('../../img/image\ \(6\).jpg');
+    background-size: cover;
+}
+
+.container {
+    max-width: 90%;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+#cover #cover-text {
+    padding-left: 20px;
+}
+
+#cover #cover-text h6 {
+    color: aliceblue;
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-size: 20px;
+    font-family:'Lato', sans-serif;
+}
+
+#cover #cover-text h1 {
+    color: azure;
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+}
+#cover #cvr-card {
+    padding-top: 120px;
+    padding-bottom: 70px;
+    height: auto;
+}
+
+.card {
+    width: 90%;
+    background-color: rgba(52, 68, 52, 0.62);
+    margin: auto auto;
+    height: 100%;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.12), 2px 3px 4px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    padding: 0.5rem;
+}
+
+.card .card-title {
+    color: #edefef;
+    font-family: 'Lora', serif;
+}
+
+.card .card-text {
+    padding-top: 6px;
+    color: #e1e1e1;
+}
+
+#block #block-text {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#block h6 {
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-family:'Lato', sans-serif;
+}
+
+#block h2 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+}
+
+#block h3 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+}
+
+#block-text p {
+    padding-top: 10px;
+}
+
+#details #heading {
+    text-align: center;
+    padding: 0 150px;
+}
+
+@media only screen and (max-width: 991px) {
+    #details #heading {
+        text-align: center;
+        padding: 0 50px;
+    }
+}
+
+#details #heading h6 {
+    letter-spacing: 3px;
+    font-weight: 500;
+    font-family:'Lato', sans-serif;
+}
+
+#details #heading h2 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+}
+
+#details #heading h5 {
+    padding-top: 10px;
+    padding-bottom: 25px;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+}
+
+#groups {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+#groups p {
+    padding-top: 20px;
+    color: #7e7e7e;
+}
+
+#connect {
+    background-color: rgb(245, 245, 245);
+}
+
+#connect .container {
+    padding: 100px 0;
+    margin-bottom: 0px;
+}
+
+#connect h3 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+}
+
+#connect h5 {
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    font-weight: 400;
+    font-family: 'Roboto Slab', serif;
+}
+
+#connect #connect-details {
+    padding-left: 40px;
+    padding-right: 30px;
+}
+
+#connect #form-details {
+    padding-left: 30px;
+    padding-right: 40px;
+}
+
+#connect p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgb(110, 110, 110);
+}
+
+#connect i {
+    padding-right: 10px;
+}
+
+#footer {
+    background: rgba(40,58,68,255);
+    color: white;
+    line-height: 7vh;
+    margin-bottom: 0;
+}
+
+#footer .container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#footer img {
+    height: 80px;
+}
+
+#back-to-top {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background-color: rgba(40,58,68,255);
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+
+#back-to-top:hover {
+    background-color: white;
+    color: rgba(40,58,68,255);
+}
+
+.loaded #loader {
+    opacity: 0;
+    transition: all 0.3s ease-out;
+}
+
+.loaded #loader-wrapper {
+    visibility: hidden;
+    transform: translateY(-100%);
+    transition: all 0.3s 1s ease-out;
+}
